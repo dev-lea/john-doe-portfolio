@@ -1,1 +1,30 @@
-export default function MentionsLegales(){ return <div className="p-4 text-center">Mentions légales (placeholder)</div>; }
+import { useEffect } from 'react';
+import { Container } from 'react-bootstrap';
+import Seo from '../components/Seo';
+import LegalAccordion from '../components/LegalAccordion';
+
+export default function MentionsLegales(){
+  useEffect(() => {
+    let robots = document.querySelector('meta[name="robots"]');
+    if (!robots) {
+      robots = document.createElement('meta');
+      robots.setAttribute('name', 'robots');
+      document.head.appendChild(robots);
+    }
+    robots.setAttribute('content', 'noindex, nofollow');
+    return () => { robots.setAttribute('content', 'index, follow'); };
+  }, []);
+
+  return (
+    <>
+      <Seo title="Mentions légales — John Doe" description="" />
+      <Container className="py-4">
+        <div className="section-title">
+          <h1>Mentions légales</h1>
+          <div className="bar"></div>
+        </div>
+        <LegalAccordion />
+      </Container>
+    </>
+  );
+}
