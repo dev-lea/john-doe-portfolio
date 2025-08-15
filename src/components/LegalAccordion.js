@@ -18,15 +18,15 @@ export default function LegalAccordion(){
         <Accordion.Body>
           <p className="mb-1 fw-semibold">alwaysdata</p>
           <p className="mb-1">91 Rue du Faubourg Saint-Honoré, 75008 Paris</p>
-          <p className="mb-0"><i className="bi bi-globe me-2"/><a href="https://www.alwaysdata.com" target="_blank" rel="noopener nofollow">www.alwaysdata.com</a></p>
+          <p className="mb-0"><i className="bi bi-globe me-2"/><a href="https://www.alwaysdata.com" target="_blank" rel="noreferrer nofollow">www.alwaysdata.com</a></p>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
         <Accordion.Header>Crédits</Accordion.Header>
         <Accordion.Body>
           <p>Ce site a été réalisé par Martin Léa (CEF).</p>
-          <p>Images : <a href="https://pixabay.com/" target="_blank" rel="noopener nofollow">Pixabay</a>.</p>
-          <p>Favicon : <a href="https://www.flaticon.com/free-icons/john-doe" target="_blank" rel="noopener nofollow">Flaticon</a>.</p>
+          <p>Images : <a href="https://pixabay.com/" target="_blank" rel="noreferrer nofollow">Pixabay</a>.</p>
+          <p>Favicon : <a href="https://www.flaticon.com/free-icons/john-doe" target="_blank" rel="noreferrer nofollow">Flaticon</a>.</p>
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>

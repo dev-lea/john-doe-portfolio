@@ -15,9 +15,15 @@ export default function Footer() {
               <a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a>
             </address>
             <div className="social">
-              <a href="https://github.com/github-johndoe" target="_blank" rel="noopener nofollow" aria-label="Github"><i className="bi bi-github"></i></a>
-              <a href="https://twitter.com/" target="_blank" rel="noopener nofollow" aria-label="Twitter"><i className="bi bi-twitter"></i></a>
-              <a href="https://www.linkedin.com/" target="_blank" rel="noopener nofollow" aria-label="LinkedIn"><i className="bi bi-linkedin"></i></a>
+              <a href="https://github.com/github-johndoe" target="_blank" rel="noreferrer nofollow" aria-label="Github">
+                <i className="bi bi-github"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank" rel="noreferrer nofollow" aria-label="Twitter">
+                <i className="bi bi-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer nofollow" aria-label="LinkedIn">
+                <i className="bi bi-linkedin"></i>
+              </a>
             </div>
           </Col>
           <Col md>

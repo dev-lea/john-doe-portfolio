@@ -13,7 +13,7 @@ export default function ModalGithub({ show, onHide, data }) {
             <ListGroup variant="flush" className="text-light">
               <ListGroup.Item className="bg-dark text-light">
                 <i className="bi bi-person me-2" />
-                <a href={data?.html_url} target="_blank" rel="noopener nofollow" className="text-reset text-decoration-underline">
+                <a href={data?.html_url} target="_blank" rel="noreferrer nofollow" className="text-reset text-decoration-underline">
                   {data?.name || data?.login}
                 </a>
               </ListGroup.Item>
