@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/john-doe-portfolio/static/css/main.032236a5.css",
+    "main.js": "/john-doe-portfolio/static/js/main.3e8f49a6.js",
+    "static/media/bootstrap-icons.woff?": "/john-doe-portfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/john-doe-portfolio/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/hero-bg.jpg": "/john-doe-portfolio/static/media/hero-bg.b8e12f2e72b502a5488a.jpg",
+    "static/media/fresh-food.jpg": "/john-doe-portfolio/static/media/fresh-food.f9cd00cae747ce16b0ee.jpg",
+    "static/media/seo.jpg": "/john-doe-portfolio/static/media/seo.6bcd3f1167b406ea1f61.jpg",
+    "static/media/screens.jpg": "/john-doe-portfolio/static/media/screens.0a86655b7e4e2f075a26.jpg",
+    "static/media/restaurant-japonais.jpg": "/john-doe-portfolio/static/media/restaurant-japonais.12050b46a3cca523c6c9.jpg",
+    "static/media/coder.jpg": "/john-doe-portfolio/static/media/coder.e936b864e20943704d2a.jpg",
+    "static/media/banner.jpg": "/john-doe-portfolio/static/media/banner.55f7c897ddbeb816abb9.jpg",
+    "static/media/john-doe-about.jpg": "/john-doe-portfolio/static/media/john-doe-about.07bb2b3f66fb2530c208.jpg",
+    "static/media/espace-bien-etre.jpg": "/john-doe-portfolio/static/media/espace-bien-etre.f6f025ed9a6d4d00b431.jpg",
+    "index.html": "/john-doe-portfolio/index.html",
+    "main.032236a5.css.map": "/john-doe-portfolio/static/css/main.032236a5.css.map",
+    "main.3e8f49a6.js.map": "/john-doe-portfolio/static/js/main.3e8f49a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.032236a5.css",
+    "static/js/main.3e8f49a6.js"
+  ]
+}
