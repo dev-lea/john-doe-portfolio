@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/john-doe-portfolio/static/css/main.032236a5.css",
+    "main.css": "/john-doe-portfolio/static/css/main.a87e8981.css",
     "main.js": "/john-doe-portfolio/static/js/main.43e2fd99.js",
     "static/media/bootstrap-icons.woff?": "/john-doe-portfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/john-doe-portfolio/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
@@ -14,11 +14,11 @@
     "static/media/john-doe-about.jpg": "/john-doe-portfolio/static/media/john-doe-about.07bb2b3f66fb2530c208.jpg",
     "static/media/espace-bien-etre.jpg": "/john-doe-portfolio/static/media/espace-bien-etre.f6f025ed9a6d4d00b431.jpg",
     "index.html": "/john-doe-portfolio/index.html",
-    "main.032236a5.css.map": "/john-doe-portfolio/static/css/main.032236a5.css.map",
+    "main.a87e8981.css.map": "/john-doe-portfolio/static/css/main.a87e8981.css.map",
     "main.43e2fd99.js.map": "/john-doe-portfolio/static/js/main.43e2fd99.js.map"
   },
   "entrypoints": [
-    "static/css/main.032236a5.css",
+    "static/css/main.a87e8981.css",
     "static/js/main.43e2fd99.js"
   ]
 }
