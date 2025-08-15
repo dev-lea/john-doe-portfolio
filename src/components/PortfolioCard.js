@@ -6,7 +6,9 @@ export default function PortfolioCard({ img, title, desc, footer }){
         <h6 className="card-title text-center fw-bold">{title}</h6>
         <p className="card-text text-center small text-muted">{desc}</p>
         <div className="text-center">
-          <a href="#" className="btn btn-primary btn-sm btn-lighten" onClick={e=>e.preventDefault()}>Voir le site</a>
+          <button type="button" className="btn btn-primary btn-sm btn-lighten">
+            Voir le site
+          </button>
         </div>
       </div>
       {footer && <div className="card-footer text-center small text-muted">{footer}</div>}
