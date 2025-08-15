@@ -1,4 +1,4 @@
-export default function PortfolioCard({ img, title, desc, footer }){
+export default function PortfolioCard({ img, title, desc, footer }) {
   return (
     <div className="card card-hover h-100">
       <img src={img} className="card-img-top" alt={title} />
@@ -15,3 +15,4 @@ export default function PortfolioCard({ img, title, desc, footer }){
     </div>
   );
 }
+
