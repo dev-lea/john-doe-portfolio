@@ -2,14 +2,16 @@
 
 * { box-sizing: border-box; }
 body {
-  font-family: 'Nunito Sans', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: 'Nunito Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  h1, h2, h3, h4, h5, h6 { font-weight: 600; }
+  strong, b { font-weight: 600; }
 }
 
 /* NAV */
 .navbar-brand { font-weight: 600; letter-spacing: .5px; }
 .nav-link { text-transform: uppercase; }
 .nav-link:hover { text-decoration: underline; }
-.nav-link.active { font-weight: 700; text-decoration: underline; }
+.navbar-dark .navbar-nav .nav-link.active { color: var(--blue-accent); font-weight: 700; text-decoration: underline; }
 
 /* Titres + barre bleue */
 .section-title { text-align: center; margin: 2.5rem 0 1rem; }
@@ -24,8 +26,8 @@ body {
 }
 .hero::after { content:''; position:absolute; inset:0; background: rgba(0,0,0,.35); }
 .hero > .hero-content { position: relative; z-index: 1; }
-.hero h1 { font-weight: 700; font-size: clamp(2rem, 4vw, 4rem); }
-.hero h2 { font-weight: 400; font-size: clamp(1.1rem, 2.2vw, 2rem); }
+.hero h1 { font-weight: 600; font-size: clamp(2rem, 4vw, 4rem); }
+.hero h2 { font-weight: 600; font-size: clamp(1.1rem, 2.2vw, 2rem); }
 
 /* Boutons */
 .btn { transition: filter .2s ease, box-shadow .2s ease; }
